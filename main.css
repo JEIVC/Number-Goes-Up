@@ -1,0 +1,28 @@
+:root {
+    background-color: hsl(150, 32%, 68%);
+
+    font-family: "Reddit Mono", monospace;
+}
+
+body {  
+    background-color: rgb(255, 253, 250);
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 12px 10%;
+    height: 90%;
+    max-width: 1200px;
+
+    text-align: center;
+}
+
+.bigTitle {
+    font-size: 64px;
+}
+
+hr {
+    border-style: solid;
+    border-width: 4px;
+    color: rgb(83, 83, 83);
+
+    max-width: 120%;
+}
