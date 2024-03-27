@@ -6,9 +6,11 @@ let dt = 0;
 let lastTimestamp = 0;
 
 let mainPoints = 0;
+let mainPPS = 0;
 
 function updateCounters() {
     document.getElementById("mainCounter").innerHTML = "This mentioned number is <h1>" + format(mainPoints) + "</h1>";
+    document.getElementById("mainPPS").innerHTML = "It goes up by " + format(mainPPS) + " every second";
 }
 
 function update(timestamp) {
