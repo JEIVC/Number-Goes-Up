@@ -19,6 +19,64 @@ body {
     font-size: 64px;
 }
 
+button {
+    min-width: 30%;
+    min-height: 20%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    transition: all 0.1s;
+    font-family: "Reddit Mono", monospace;
+    background-color: whitesmoke;
+}
+button:hover {
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    min-width: calc(30% + 15px);
+    padding: 15px;
+    margin: 5px;
+}
+button:active {
+    transition-timing-function: linear;
+    min-width: calc(30% - 5px);
+    padding: 5px;
+    margin: 15px;
+}
+button:disabled {
+    cursor: not-allowed;
+    min-width: 25%;
+    min-height: 15%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.1s;
+    font-family: "Reddit Mono", monospace;
+}
+
+#pointsBtn {
+    min-width: 60%;
+    min-height: 40%;
+    margin: 20px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: all 0.1s;
+
+    background-color: lightgoldenrodyellow;
+}
+#pointsBtn:hover {
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    min-width: calc(60% + 20px);
+    padding: 20px;
+    margin: 15px;
+}
+#pointsBtn:active {
+    transition-timing-function: linear;
+    min-width: calc(60% - 10px);
+    padding: 10px;
+    margin: 25px;
+}
+
 hr {
     border-style: solid;
     border-width: 4px;

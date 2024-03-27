@@ -1,3 +1,5 @@
 function format(value) {
-    return Math.round(value * 100) / 100;
+    newval = Number.parseFloat(value).toFixed(2);
+
+    return newval;
 }
