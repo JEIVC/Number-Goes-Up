@@ -1,5 +1,6 @@
 function format(value) {
-    newval = Number.parseFloat(value).toFixed(2);
+    newval = Number.parseInt(value).toString(12);
+    newval = newval.replace('a', '𝛘').replace('b', 'Ɛ')
 
     return newval;
 }
